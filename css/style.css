@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Coming Soon', serif;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(185, 206, 188);
+}
+h3 {
+    color: rgb(255, 255, 255);
+    padding-bottom: 15px;
+    font-size: 23px;
+}
+h4 {
+    padding-top: 8%;
+    font-size: 20px;
+    color: white;
+}
+#color-change {
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 15px;
+    color: rgb(255, 249, 250);
+    background-color: rgb(67, 189, 255);
+    box-shadow: 0 6px rgb(48, 142, 193);
+}
+#color-change:hover {
+    background-color: rgb(61, 180, 245);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    /* box-shadow: 0 6px 8px 0 rgba(11, 13, 72, 0.349), 0 17px 50px 0 rgba(92, 63, 238, 0.19); */
+}
+#color-change:active {
+    background-color: rgb(58, 168, 227);
+    box-shadow: 0 3px rgb(48, 142, 193);
+    transform: translateY(4px);
+}
+.github {
+    left: 2pt;
+    position: fixed;
+    bottom: 15px;
+    height: 30px;
+    width: 35px;
+    z-index: 100;
+}
+.valores {
+    background-color: rgb(49, 49, 50);
+    border-radius: 15px;
+    width: 170px;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+}
+.menu {
+    margin: auto;
+    margin-top: 10%;
+    height: fit-content;
+    width: 350px;
+    padding: 3%;
+    background-color: rgba(247, 91, 91, 0.856);
+    border-radius: 15px;
+    outline-style: dashed;
+    outline-width: 2px;
+}
